@@ -25,4 +25,4 @@
 > * Tumblr: https://www.tumblr.com/blog/uncleyeung
 # Linux problem solve
 #### A summary of some solutions to production environment issues
-###### 1.NIO实战 [立即前往](./src/main/java/com/uncle/controller/nio)
+###### 1.cpu标高检查过程及其解决方案 [立即前往](./README-CPU-EXCEPTION.md)
