@@ -86,7 +86,7 @@ public class FileNioTest {
 ![top](../img/top-2.png "top -H -p 情况")
 ![top](../img/ps-1.png "top -H -p 情况")
 ---
-1. 既然我们知道线程组pid,我们可以通过他去定位问题,拿线程31866为例
+1. 既然我们知道线程组pid,我们可以通过他去定位问题,拿线程31866为例 [pid/tid的一点点解释](https://blog.csdn.net/tsh123321/article/details/88948734)
 2. 我们需要将10进制的31866转成16进制得到7c7a,对之后的确定java堆栈日志起到关键性作用
 3. 堆栈信息怎么看?我们可以借助jstack 指令得到堆栈信息,如下图 [jstack详情参考](https://www.iteye.com/blog/guafei-1815222)
 4. jstack pid >pid-x.txt
